@@ -1,0 +1,17 @@
+Lists = [ ]
+Dictionaries = { }
+
+
+
+Dictionaries
+-------------------
+
+- The key will always be on the left and the value on the right
+    Key will always be text and value can be whatever
+    Values can be any python value
+
+Key Syntax
+--------------------
+[{"key" : "value",...}] 
+
+-KeyError = Means there is some kind a mistake indicating that Python could not find a key with the title you programmed
