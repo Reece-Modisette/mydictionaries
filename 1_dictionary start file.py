@@ -76,7 +76,7 @@ print()
 
 
 
-
+"""
 print()
 print("*****  start section 5 - iterate through keys, values, items ********")
 print()
@@ -84,19 +84,19 @@ print()
 for key in phonebook:
     print(f"The key is: {key} and the value is {phonebook[key]}")
 
-for value in phonbook.values():
+for value in phonebook.values():
     print(value)
 
-#for k, v in phonebook.items():
+# for k, v in phonebook.items():
 #    print(f"The key is: {key} and the value is {phonebook[key]}")
-#^^ THIS IS THE SAME AS THE CODE WRITTEN BELOW JUST A LITTLE DIFFERENT    
+# ^^ THIS IS THE SAME AS THE CODE WRITTEN BELOW JUST A LITTLE DIFFERENT
 
 for k, v in phonebook.items():
     print(f"The key is: {k} and the value is {v}")
 
 for ph_tuple in phonebook.items():
     print(ph_tuple)
-
+"""
 print()
 print("*****  end section 5 ********")
 print()
@@ -156,7 +156,7 @@ print()
 print("*****  end section 8 ********")
 print()
 
-"""
+
 
 print()
 print("*****  start section 9 - using random and converting to list ********")
@@ -175,3 +175,4 @@ print(phonebook[random.choice(list(phonebook))])
 print()
 print("*****  end section 9 ********")
 print()
+"""

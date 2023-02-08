@@ -14,4 +14,7 @@ Key Syntax
 --------------------
 [{"key" : "value",...}] 
 
--KeyError = Means there is some kind a mistake indicating that Python could not find a key with the title you programmed
+ -KeyError = Means there is some kind a mistake indicating that Python could not find a key with the title you programmed
+
+person[fname] = "Joe"    <-- Will print "Joe" as the key and value
+person["fname"] = "Joe"  <-- Hard codes the key printing "fname"
